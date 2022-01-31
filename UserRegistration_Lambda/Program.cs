@@ -8,6 +8,8 @@ namespace UserRegistrationUsingLambda
     {
         static void Main(string[] args)
         {
+            //UC-1
+
             Console.WriteLine("Welcome to User Reg using Lambda Expressions!");
             Console.WriteLine("Enter First Name :");
             string name = Console.ReadLine();
@@ -21,6 +23,8 @@ namespace UserRegistrationUsingLambda
             else
                 Console.WriteLine("First Name is INVALID !!");
 
+            //UC-2
+
             Console.WriteLine("Enter Last Name :");
             //if regex is valid 
             //it executes as valid lastname
@@ -30,6 +34,18 @@ namespace UserRegistrationUsingLambda
                 Console.WriteLine("Last Name is VALID !!");
             else
                 Console.WriteLine("Last Name is INVALID !!");
+
+            //UC-3
+
+            Console.WriteLine("Enter Email :");
+            string email = Console.ReadLine();
+            //if regex is valid 
+            //it executes as valid email
+            //otherwise invalid email
+            if (regex.ValidEmail(email))
+                Console.WriteLine("Email is VALID !!");
+            else
+                Console.WriteLine("Email is INVALID !!");
         }
     }
 }

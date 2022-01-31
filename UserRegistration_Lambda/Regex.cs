@@ -10,13 +10,13 @@ namespace UserRegistration_Lambda
     internal class RegeX
     {
 
-         //UC-1
-         //pattern for valid name
-         public static string REGEX = "^[A-Z]{1}[A-Za-z]{2,}$";
-            
+        //UC-1
+        //pattern for valid name
+        public static string REGEX = "^[A-Z]{1}[A-Za-z]{2,}$";
+
         public bool ValidFirstName(string name)
         {
-             return Regex.IsMatch(name, REGEX);
+            return Regex.IsMatch(name, REGEX);
         }
         //UC-2
         //pattern for valid name
@@ -27,5 +27,13 @@ namespace UserRegistration_Lambda
             return Regex.IsMatch(name, LastNameREGEX);
         }
 
+        //UC-3
+        //pattern for valid email
+        public static string EmailREGEX = "^[0-9a-zA-Z]+[.+-_]{0,1}[0-9a-zA-Z]+[@][a-zA-Z]+[.][a-zA-Z]{2,3}([.][a-zA-Z]{2,3}){0,1}";
+
+        public bool ValidEmail(string email)
+        {
+            return Regex.IsMatch(email, EmailREGEX);
+        }
     }
 }

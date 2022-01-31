@@ -17,4 +17,5 @@
 'UserRegistration_Lambda.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.1\Microsoft.Win32.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
 'UserRegistration_Lambda.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.1\System.Runtime.Loader.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
 'UserRegistration_Lambda.exe' (CoreCLR: clrhost): Loaded 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.1\System.Text.RegularExpressions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-The program '[6852] UserRegistration_Lambda.exe' has exited with code 0 (0x0).
+The thread 0x8d0 has exited with code 0 (0x0).
+The program '[13544] UserRegistration_Lambda.exe' has exited with code 0 (0x0).
