@@ -55,5 +55,23 @@ namespace UserRegistration_Lambda
             else
                 return "Entry UnSuccessfull";
         }
-    }
+
+        //UC-11
+        public UserRegister()
+        {
+        }
+
+        RegeX Obj = new RegeX();
+        public string MultipleEmails(string e1, string e2)
+        {
+           
+            bool b1 = Obj.ValidEmail(e1);
+       
+            bool b2 = Obj.ValidEmail(e2);
+            
+            if (b1 && b2)
+                return "Entry Successful";
+            else
+                return "Entry Unsuccessful";
+        }
 }
