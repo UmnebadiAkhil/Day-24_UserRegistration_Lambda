@@ -1,0 +1,15 @@
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\bin\Debug\net6.0\UserRegistration_Lambda.exe
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\bin\Debug\net6.0\UserRegistration_Lambda.deps.json
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\bin\Debug\net6.0\UserRegistration_Lambda.runtimeconfig.json
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\bin\Debug\net6.0\UserRegistration_Lambda.dll
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\bin\Debug\net6.0\ref\UserRegistration_Lambda.dll
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\bin\Debug\net6.0\UserRegistration_Lambda.pdb
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\obj\Debug\net6.0\UserRegistration_Lambda.csproj.AssemblyReference.cache
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\obj\Debug\net6.0\UserRegistration_Lambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\obj\Debug\net6.0\UserRegistration_Lambda.AssemblyInfoInputs.cache
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\obj\Debug\net6.0\UserRegistration_Lambda.AssemblyInfo.cs
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\obj\Debug\net6.0\UserRegistration_Lambda.csproj.CoreCompileInputs.cache
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\obj\Debug\net6.0\UserRegistration_Lambda.dll
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\obj\Debug\net6.0\ref\UserRegistration_Lambda.dll
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\obj\Debug\net6.0\UserRegistration_Lambda.pdb
+C:\Users\akhil\OneDrive\Desktop\TerminalCommands\RFP\Day-24_UserRegistration_Lambda\UserRegistration_Lambda\obj\Debug\net6.0\UserRegistration_Lambda.genruntimeconfig.cache
