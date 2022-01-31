@@ -137,5 +137,95 @@ namespace UserRegistration_Lambda_MSTest
             //Assert
             Assert.AreEqual("Entry Successful", result);
         }
+
+        [TestMethod]
+        [DataRow("1Akhil")]
+        public void TestMethod12(string fname)
+        {
+            try
+            {
+                //Arrange
+                UserRegister userRegister = new UserRegister();
+                //Act
+                userRegister.CheckFirstName(fname);
+            }
+            catch (UserRegistrationException e)
+            {
+                //Assert
+                Assert.AreEqual("First Name is Invalid !!", e.Message);
+            }
+        }
+        
+        [TestMethod]
+        [DataRow("2Umnebadi")]
+        public void TestMethod13(string lname)
+        {
+            try
+            {
+                //Arrange
+                UserRegister userRegister = new UserRegister();
+                //Act
+                userRegister.CheckLastName(lname);
+            }
+            catch (UserRegistrationException e)
+            {
+                //Assert
+                Assert.AreEqual("Last Name is Invalid !!", e.Message);
+            }
+        }
+        
+        [TestMethod]
+        [DataRow("Akhil100@gmail.co.in.uk")]
+        public void TestMethod14(string email)
+        {
+            try
+            {
+                //Arrange
+                UserRegister userRegister = new UserRegister();
+                //Act
+                userRegister.CheckEmail(email);
+            }
+            catch (UserRegistrationException e)
+            {
+                //Assert
+                Assert.AreEqual("Email is Invalid !!", e.Message);
+            }
+        }
+        
+        [TestMethod]
+        [DataRow("91 95ab131bj1")]
+        public void TestMethod15(string mobNumber)
+        {
+            try
+            {
+                //Arrange
+                UserRegister userRegister = new UserRegister();
+                //Act
+                userRegister.CheckMobile(mobNumber);
+            }
+            catch (UserRegistrationException e)
+            {
+                //Assert
+                Assert.AreEqual("Mobile number is Invalid !!", e.Message);
+            }
+        }
+        
+        [TestMethod]
+        [DataRow("svfd122dd")]
+        public void TestMethod16(string password)
+        {
+            try
+            {
+                //Arrange
+                UserRegister userRegister = new UserRegister();
+                //Act
+                userRegister.CheckPassword(password);
+            }
+            catch (UserRegistrationException e)
+            {
+                //Assert
+                Assert.AreEqual("Password is Invalid !!", e.Message);
+            }
+        }
     }
 }
