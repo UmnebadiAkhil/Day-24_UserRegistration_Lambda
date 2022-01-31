@@ -58,6 +58,18 @@ namespace UserRegistrationUsingLambda
                 Console.WriteLine("Mobile Number is VALID !!");
             else
                 Console.WriteLine("Mobile Number is INVALID !!");
+
+            //UC-5
+
+            Console.WriteLine("Enter Password :");
+            string Rule1 = Console.ReadLine();
+            //if regex is valid 
+            //it executes as valid rule1
+            //otherwise invalid rule1
+            if (regex.ValidCondition1(Rule1))
+                Console.WriteLine("Password is VALID !!");
+            else
+                Console.WriteLine("Password is INVALID !!");
         }
     }
 }

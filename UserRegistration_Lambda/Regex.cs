@@ -35,5 +35,25 @@ namespace UserRegistration_Lambda
         {
             return Regex.IsMatch(email, EmailREGEX);
         }
+
+        //UC-4
+        //pattern for valid phonenumber
+        public static string MobileNumREGEX = "^[91]{1}[ ]{1}[6-9]{1}[0-9]{9}$";
+
+        public bool ValidMobile(string mobileNumber)
+        {
+            return Regex.IsMatch(mobileNumber, MobileNumREGEX);
+        }
+
+        //UC-5
+        //pattern for valid rule1
+        public static string Condition1REGEX = "^[A-Za-z0-9@$!%*#?&]{8,}$";
+
+        public bool ValidCondition1(string password)
+        {
+            return Regex.IsMatch(password, Condition1REGEX); ;
+        }
+
+
     }
 }
