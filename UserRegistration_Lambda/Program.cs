@@ -70,6 +70,18 @@ namespace UserRegistrationUsingLambda
                 Console.WriteLine("Password is VALID !!");
             else
                 Console.WriteLine("Password is INVALID !!");
+
+            //UC-6
+
+            Console.WriteLine("Enter Password :");
+            string Rule2 = Console.ReadLine();
+            //if regex is valid 
+            //it executes as valid rule2
+            //otherwise invalid rule2
+            if (regex.ValidCondition2(Rule2))
+                Console.WriteLine("Password is VALID !!");
+            else
+                Console.WriteLine("Password is INVALID !!");
         }
     }
 }
