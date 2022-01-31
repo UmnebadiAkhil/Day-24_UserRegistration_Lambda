@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 namespace UserRegistration_Lambda
 {
-    internal class RegeX
+    public class RegeX
     {
 
         //UC-1
@@ -90,5 +90,22 @@ namespace UserRegistration_Lambda
             return Regex.IsMatch(email, SampleEmailREGEX); ;
         }
 
+        //UC-13
+
+        public Func<string, bool> isValidFirstName = firstname => Regex.IsMatch(firstname, REGEX);
+
+        
+        public Func<string, bool> isValidLastName = lastname => Regex.IsMatch(lastname, LastNameREGEX);
+
+
+        public Func<string, bool> isValidEmail = email => Regex.IsMatch(email, EmailREGEX);
+
+
+        public Func<string, bool> isValidMobileNumber = mobilenumber => Regex.IsMatch(mobilenumber, MobileNumREGEX);
+
+        
+        public Func<string, bool> isValidPassword = password => Regex.IsMatch(password, Condition1REGEX) && Regex.IsMatch(password, Condition4REGEX);
+
+        
     }
 }

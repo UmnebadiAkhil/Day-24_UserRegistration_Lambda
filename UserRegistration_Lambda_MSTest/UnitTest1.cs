@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using UserRegistration_Lambda;
+using System.Text.RegularExpressions;
 
 namespace UserRegistration_Lambda_MSTest
 {
@@ -226,6 +227,53 @@ namespace UserRegistration_Lambda_MSTest
                 //Assert
                 Assert.AreEqual("Password is Invalid !!", e.Message);
             }
+        }
+
+        //UC-12
+
+        [TestMethod]
+        [DataRow("Akhil")]
+        public void TestMethod17(string firstName)
+        {
+            RegeX regexclass = new RegeX();
+            bool validFirstName = regexclass.isValidFirstName(firstName);
+            Assert.AreEqual(true, validFirstName);
+        }
+        
+        [TestMethod]
+        [DataRow("Umnebadi")]
+        public void TestMethod18(string lastName)
+        {
+            RegeX regexclass = new RegeX();
+            bool validLastName = regexclass.isValidLastName(lastName);
+            Assert.AreEqual(true, validLastName);
+        }
+        
+        [TestMethod]
+        [DataRow("am2@yahoo.com")]
+        public void TestMethod19(string email)
+        {
+            RegeX regexclass = new RegeX();
+            bool validEmail = regexclass.isValidEmail(email);
+            Assert.AreEqual(true, validEmail);
+        }
+        
+        [TestMethod]
+        [DataRow("91 9922211010")]
+        public void TestMethod20(string number)
+        {
+            RegeX regexclass = new RegeX();
+            bool validNumber = regexclass.isValidMobileNumber(number);
+            Assert.AreEqual(true, validNumber);
+        }
+        
+        [TestMethod]
+        [DataRow("akhilish28$")]
+        public void TestMethod21(string password)
+        {
+            RegeX regexclass = new RegeX();
+            bool validPassword = regexclass.isValidPassword(password);
+            Assert.AreEqual(true, validPassword);
         }
     }
 }
