@@ -94,6 +94,20 @@ namespace UserRegistrationUsingLambda
                 Console.WriteLine("Password is VALID !!");
             else
                 Console.WriteLine("Password is INVALID !!");
+
+            //UC-8
+
+            Console.WriteLine("Enter Password :");
+            string Rule4 = Console.ReadLine();
+            //if regex is valid 
+            //it executes as valid rule4
+            //otherwise invalid rule4
+            if (regex.ValidCondition4(Rule4))
+                Console.WriteLine("Password is VALID !!");
+            else
+                Console.WriteLine("Password is INVALID !!");
+
+
         }
     }
 }

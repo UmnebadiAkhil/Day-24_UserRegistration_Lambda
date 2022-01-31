@@ -71,5 +71,15 @@ namespace UserRegistration_Lambda
         {
             return Regex.IsMatch(password, Condition3REGEX); ;
         }
+
+        //UC-8
+        //pattern for valid rule4
+        public static string Condition4REGEX = "^[A-Za-z0-9]*[@$!%*#?&]{1}[A-Za-z0-9]*$";
+
+        public bool ValidCondition4(string password)
+        {
+            return Regex.IsMatch(password, Condition4REGEX); ;
+        }
+
     }
 }
