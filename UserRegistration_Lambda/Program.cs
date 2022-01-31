@@ -46,6 +46,18 @@ namespace UserRegistrationUsingLambda
                 Console.WriteLine("Email is VALID !!");
             else
                 Console.WriteLine("Email is INVALID !!");
+
+            //UC-4
+
+            Console.WriteLine("Enter Mobile Number :");
+            string mobilenum = Console.ReadLine();
+            //if regex is valid 
+            //it executes as valid mobilenumber
+            //otherwise invalid mobilenumber
+            if (regex.ValidMobile(mobilenum))
+                Console.WriteLine("Mobile Number is VALID !!");
+            else
+                Console.WriteLine("Mobile Number is INVALID !!");
         }
     }
 }
