@@ -107,7 +107,17 @@ namespace UserRegistrationUsingLambda
             else
                 Console.WriteLine("Password is INVALID !!");
 
+            //UC-9
 
+            Console.WriteLine("Enter Sample Emails to Test :");
+            string sampleemail = Console.ReadLine();
+            //if regex is valid
+            //it executes as valid sample email
+            //otherwise invalid sample email
+            if (regex.SampleEmail(sampleemail))
+                Console.WriteLine("Sample Email is VALID !!");
+            else
+                Console.WriteLine("Sample Email is INVALID !!");
         }
     }
 }

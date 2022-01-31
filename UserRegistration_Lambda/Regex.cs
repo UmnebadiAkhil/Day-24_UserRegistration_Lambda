@@ -81,5 +81,14 @@ namespace UserRegistration_Lambda
             return Regex.IsMatch(password, Condition4REGEX); ;
         }
 
+        //UC-9
+        //pattern for sample email
+        public static string SampleEmailREGEX = "^[0-9a-zA-Z]+[.+-_]{0,1}[0-9a-zA-Z]+[@][0-9a-zA-Z]+.[a-zA-Z]{2,3}(.[a-zA-Z]{2})?$";
+
+        public bool SampleEmail(string email)
+        {
+            return Regex.IsMatch(email, SampleEmailREGEX); ;
+        }
+
     }
 }
